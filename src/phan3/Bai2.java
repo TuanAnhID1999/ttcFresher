@@ -8,7 +8,7 @@ public class Bai2 {
     public static void upDownDate() {
 
         // Định dạng thời gian
-        SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd");
 
         Calendar c1 = Calendar.getInstance();
         Calendar c2 = Calendar.getInstance();
@@ -24,10 +24,10 @@ public class Bai2 {
         System.out.println("Ngày ban đầu : " + dateFormat.format(c1.getTime()));
 
         // Tăng ngày thêm 8 ngày -- Sử dụng phương thức roll()
-        c1.roll(Calendar.DATE, 100);
+     //   c1.roll(Calendar.DATE, 100);
 
         // c1.roll(Calendar.DATE, -8); // Giảm ngày 8 ngày ==> 23-07-2011
-        System.out.println("Ngày được tăng thêm 100 ngày (Sử dụng Roll) : "+ dateFormat.format(c1.getTime()));
+      //  System.out.println("Ngày được tăng thêm 100 ngày (Sử dụng Roll) : "+ dateFormat.format(c1.getTime()));
 
 
         /* Các trường hợp khác

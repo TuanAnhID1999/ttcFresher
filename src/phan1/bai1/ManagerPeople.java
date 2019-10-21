@@ -54,15 +54,22 @@ public class ManagerPeople {
     }
 
     // 4 Hàm trả ra ngày nhập hóa đơn
-    public void getDataDatebill() {
-        // ten va ngay
-        System.out.println("Danh sách date hóa đơn");
-        Collections.sort(listBill, new PersonComparator());
-        int n = listBill.size();
-        for (int i = 0; i < n; i++) {
-            System.out.println("date " + listBill.get(i).getDate());
+    public List<String> getDataDatebill() {
+        List<String> dates = new ArrayList<>();
+        if (listBill.size() == 0) {
+            return dates;
+        } else {
+            for (Bill element : listBill) {
+                if (!dates.contains(element.getDate())) {
+                    dates.add(element.getDate());
+
+                }
+            }
         }
+
+        return dates;
     }
+
 
     //5 Hàm trả ra số tiền lớn hơn 1000000
     public List<Bill> getMoney() {
@@ -71,35 +78,46 @@ public class ManagerPeople {
         int n = listBill.size();
         for (int i = 0; i < n; i++) {
             if (listBill.get(i).getMoney() > 1000000) {
-                System.out.println("Person "+ listBill.get(i).getName()+ ", money :" + listBill.get(i).getMoney());
+                System.out.println("Person " + listBill.get(i).getName() + ", money :" + listBill.get(i).getMoney());
                 Bill bill = listBill.get(i);
                 bills.add(bill);
             }
         }
 
-        for (Bill bill: bills){
-            if (bill.getMoney()== 0){
-                System.out.println("Không tồn có hóa đơn nào trên 1000000");
-            }
-        }
+        if (bills.size() == 0) {
+            System.out.println("Không tồn tại hóa đơn nào trên 1000000");
 
+        }
 
         return bills;
     }
 
 
-    // Hàm lấy ra dữ liệu các hóa đơn của của 1 ngày\
-    public void getDataBill(){
-      //  Set<Map.Entry<String, List<Bill>>> setHashMap = hashMap.entrySet();
-        Iterator<Map.Entry<String, List<Bill>>> iterator = hashMap.entrySet().iterator();
-        while (iterator.hasNext()) {
-            // tạo 1 entry
-            Map.Entry<String, List<Bill>> entry = iterator.next();
-            //System.out.println(entry.getKey() );
-            for (Bill bill: entry.getValue()){
-                System.out.println("Date: "+ bill.getDate() +" Name :" + bill.getName() + " Tiền :" + bill.getMoney() + "\t\t");
+//    // Hàm lấy ra dữ liệu các hóa đơn của của 1 ngày\
+
+    public void getDataBill() {
+        HashMap<String, String> hashMap = new HashMap<>();
+        if (listBill.size() == 0) {
+            return;
+        } else {
+
+            for (int i = 0; i < listBill.size(); i++) {
+                hashMap.put(listBill.get(i).getDate(), listBill.get(i).getName());
             }
         }
+
+        // tạo 1 Set có tên là setHashMap
+        // chứa toàn bộ các entry (vừa key vừa value)
+        // của hashMap
+        Set<Map.Entry<String, String>> setHashMap = hashMap.entrySet();
+        //PT để lấy giá trị key
+        Iterator<String> iterator = hashMap.keySet().iterator();
+
+        System.out.println("Các entry có trong setHashMap:");
+        for (String values : hashMap.values()) {
+            System.out.println("Date = " + iterator.next()+ " Bill of Name :" + values );
+        }
+      //  System.out.println("Date " + setHashMap);
     }
 
 }

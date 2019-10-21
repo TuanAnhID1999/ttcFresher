@@ -12,7 +12,7 @@ public class Bai7 {
         return strDate;
     }
 
-    // Loại 1 MMM yyyy,dd HH:mm:ss
+    // Loại 2 MMM yyyy,dd HH:mm:ss
     public static String getCurrentTimeStampKind2() {
         SimpleDateFormat sdfDate = new SimpleDateFormat("MMM yyyy,dd HH:mm:ss");//dd/MM/yyyy
         Date now = new Date();

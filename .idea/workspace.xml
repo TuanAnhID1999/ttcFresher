@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="327a439d-b495-4bc8-9264-17f097e1436b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tccFresher/phan1/bai1/ManagerPeople.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tccFresher/phan1/bai1/ManagerPeople.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tccFresher/phan1/bai1/PersonComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tccFresher/phan2/Bai2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tccFresher/phan2/Bai2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tccFresher/phan2/Bai3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tccFresher/phan2/Bai3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tccFresher/phan2/Bai4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tccFresher/phan2/Bai4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tccFresher/phan3/Bai1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tccFresher/phan3/Bai1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tccFresher/phan3/Bai6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tccFresher/phan3/Bai6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/phan1/bai1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/phan1/bai1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/phan1/bai1/ManagerPeople.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/phan1/bai1/ManagerPeople.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/phan1/bai1/PersonComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/phan2/Bai2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/phan2/Bai2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/phan2/Bai3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/phan2/Bai3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/phan2/Bai4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/phan2/Bai4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/phan3/Bai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/phan3/Bai1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/phan3/Bai5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/phan3/Bai5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/phan3/Bai6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/phan3/Bai6.java" afterDir="false" />
-    </list>
+    <list default="true" id="327a439d-b495-4bc8-9264-17f097e1436b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,10 +15,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/phan2/Bai1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-340">
+              <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/phan2/Bai3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-133">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="26" />
+            <state relative-caret-position="289">
+              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#784#785#0" expanded="true" />
@@ -62,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/phan2/Bai5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -81,22 +75,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/phan3/Bai2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/phan3/Bai5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="242">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="17" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/phan3/Bai3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+            <state relative-caret-position="306">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/phan3/Bai6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="136">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#422#423#0" expanded="true" />
@@ -133,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/phan3/Bai7.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="174">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/phan2/Bai2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-65">
-              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+            <state relative-caret-position="292">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#713#733#0" expanded="true" />
@@ -195,8 +177,8 @@
         <option value="$PROJECT_DIR$/src/phan2/Bai2.java" />
         <option value="$PROJECT_DIR$/src/phan3/Bai1.java" />
         <option value="$PROJECT_DIR$/src/phan2/Bai3.java" />
-        <option value="$PROJECT_DIR$/src/phan3/Bai6.java" />
         <option value="$PROJECT_DIR$/src/phan3/Bai5.java" />
+        <option value="$PROJECT_DIR$/src/phan3/Bai6.java" />
       </list>
     </option>
   </component>
@@ -278,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Bai5">
+  <component name="RunManager" selected="Application.Bai3">
     <configuration name="Bai1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="phan3.Bai1" />
       <module name="tccFresher" />
@@ -346,9 +328,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bai3" />
         <item itemvalue="Application.Bai5" />
         <item itemvalue="Application.Bai6" />
-        <item itemvalue="Application.Bai3" />
         <item itemvalue="Application.Bai1 (1)" />
         <item itemvalue="Application.Bai2" />
       </list>
@@ -369,8 +351,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49761903" visible="true" weight="0.1913767" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49761903" visible="true" weight="0.1913767" />
       <window_info id="Structure" order="1" sideWeight="0.50238097" side_tool="true" weight="0.2647504" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -379,7 +362,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.29787233" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.29787233" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -455,89 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/phan2/Bai1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/phan2/Bai4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/phan2/Bai5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/phan2/Bai2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#713#733#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/phan3/Bai7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/phan2/Bai3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/phan3/Bai6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/phan3/Bai3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/phan3/Bai2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -558,12 +458,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/phan3/Bai5.java">
+    <entry file="file://$PROJECT_DIR$/src/phan3/Bai3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="306">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phan3/Bai5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phan3/Bai6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phan3/Bai7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phan2/Bai5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phan2/Bai4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phan2/Bai2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#713#733#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phan2/Bai1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-340">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/phan2/Bai3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
           </folding>
         </state>
       </provider>

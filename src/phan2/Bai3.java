@@ -11,11 +11,8 @@ public class Bai3 {
         listArr.add(raw);
         listArr.add(from);
         listArr.add(to);
-        String list= "";
-        for (String s: listArr){
-            list = listArr.toString();
-        }
-        System.out.println(list);
+        String citiesCommaSeparated = String.join(",", listArr);
+        System.out.println(citiesCommaSeparated);
 
         // ký tự phân tách mặc định ở đây là khoảng trắng
         // StringTokenizer stringTokenizer = new StringTokenizer(str);

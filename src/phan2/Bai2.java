@@ -48,6 +48,16 @@ public class Bai2 {
         return maxappearchar;
     }
 
+    // Tìm chuỗi con từ chuỗi ban đầu
+    private static  void  demSoChuoiCon(){
+        String A = "abcd";
+        for (int i = 0; i < A.length(); i++) {
+            for (int j = i+1; j <= A.length(); j++) {
+                System.out.print("{" + A.substring(i,j)+ "}");
+            }
+        }
+    }
+
     public static void main(String[] args) {
         String str1 = "test string";
         System.out.println("The given string is: " + str1);
@@ -55,5 +65,6 @@ public class Bai2 {
         //Cách 2 sd Map
         System.out.println("Max occurring character in the given string is: ");
         getMaxViaHashmap(str1);
+        demSoChuoiCon();
     }
 }

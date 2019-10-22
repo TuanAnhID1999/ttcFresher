@@ -38,14 +38,12 @@ public class Bai2 {
             }
         }
 
-
         int maxValueInMap = (Collections.max(map.values()));
         for (Map.Entry<Character, Integer> entry : map.entrySet()) {
             if (entry.getValue() == maxValueInMap) {
                 System.out.println("the max char is : " + entry.getKey() + "  and displayed  " + maxValueInMap );     // Print the key with max value
                 maxappearchar = entry.getKey();
             }
-
         }
         return maxappearchar;
     }

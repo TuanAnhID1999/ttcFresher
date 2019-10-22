@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         ManagerPeople managerPeople = new ManagerPeople();
         // Hàm input
-       managerPeople.inPutIndorm();
+     //  managerPeople.inPutIndorm();
 
         // Hàm sort theo tiền
          // managerPeople.sortMoney();

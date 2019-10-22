@@ -44,8 +44,13 @@ public class ManagerPeople {
     // 3 Sắp xếp mảng List<Bill> theo thứ tự tăng dần của money.
     public void sortMoney() {
         // Sử dụng phương thức Collections.sort(List)
-        // để sắp xếp một danh sách (List)
-        Collections.sort(listBill, new PersonComparator());
+        Collections.sort(listBill, new Comparator<Bill>() {
+            @Override
+            public int compare(Bill o1, Bill o2) {
+                return o1.getMoney() > o2.getMoney() ? 1 : -1;
+            }
+        });
+
         System.out.println("Danh sach bill sắp xếp theo tiền.");
         for (Bill bill : listBill) {
             System.out.println("Person:" + bill.getName() + " " + bill.getMoney());
@@ -83,41 +88,40 @@ public class ManagerPeople {
                 bills.add(bill);
             }
         }
-
         if (bills.size() == 0) {
             System.out.println("Không tồn tại hóa đơn nào trên 1000000");
-
         }
-
         return bills;
     }
 
 
-//    // Hàm lấy ra dữ liệu các hóa đơn của của 1 ngày\
-
+    // Hàm lấy ra dữ liệu các hóa đơn của của 1 ngày\
     public void getDataBill() {
-        HashMap<String, String> hashMap = new HashMap<>();
-        if (listBill.size() == 0) {
-            return;
-        } else {
-
-            for (int i = 0; i < listBill.size(); i++) {
-                hashMap.put(listBill.get(i).getDate(), listBill.get(i).getName());
+        Collections.sort(listBill, new Comparator<Bill>() {
+            @Override
+            public int compare(Bill b1, Bill b2) {
+                return b1.getDate().compareTo(b2.getDate());
             }
+        });
+
+        HashMap<String, List<Bill>> hashMapListBill = new HashMap<>();
+        for (int i = 0; i < listBill.size(); i++) {
+            List<Bill> lb1 = new ArrayList<>();
+            lb1.add(listBill.get(i));
+            if (listBill.size() > 1){
+                if (i < listBill.size() - 1 && listBill.get(i).getDate().equals(listBill.get(i + 1).getDate())) {
+                    lb1.add(listBill.get(i + 1));
+                    i++;
+                }
+            }
+            hashMapListBill.put(listBill.get(i).getDate(), lb1);
+
         }
 
-        // tạo 1 Set có tên là setHashMap
-        // chứa toàn bộ các entry (vừa key vừa value)
-        // của hashMap
-        Set<Map.Entry<String, String>> setHashMap = hashMap.entrySet();
-        //PT để lấy giá trị key
-        Iterator<String> iterator = hashMap.keySet().iterator();
-
-        System.out.println("Các entry có trong setHashMap:");
-        for (String values : hashMap.values()) {
-            System.out.println("Date = " + iterator.next()+ " Bill of Name :" + values );
+        for (String i : hashMapListBill.keySet()) {
+            System.out.println("Date: " + i + " value: " + hashMapListBill.get(i));
         }
-      //  System.out.println("Date " + setHashMap);
+
     }
 
 }

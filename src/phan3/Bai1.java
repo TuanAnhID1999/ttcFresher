@@ -5,14 +5,11 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Bai1 {
-    public static String getCurrentTimeStamp() {
-        SimpleDateFormat sdfDate = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//dd/MM/yyyy
-        Date now = new Date();
-        String strDate = sdfDate.format(now);
-        return strDate;
-    }
 
-    public static void main(String[] args) {
-        System.out.println(getCurrentTimeStamp());
+    public static void main(String[] args) throws ParseException {
+        String str = "2012-07-10 14:58:00";
+        Date temp = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss")
+                .parse(str);
+        System.out.println(temp);
     }
 }

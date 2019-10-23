@@ -5,7 +5,7 @@ public class Main {
         ManagerPeople managerPeople = new ManagerPeople();
         // Hàm input
        managerPeople.inPutIndorm();
-
+//
         // Hàm sort theo tiền
          // managerPeople.sortMoney();
 

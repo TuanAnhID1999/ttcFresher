@@ -97,7 +97,6 @@ public class ManagerPeople {
 
     // Hàm lấy ra dữ liệu các hóa đơn của của 1 ngày\
     public void getDataBill() {
-        ArrayList<Bill> listBill1 = new ArrayList();
 
         Collections.sort(listBill, new Comparator<Bill>() {
             @Override
@@ -109,23 +108,16 @@ public class ManagerPeople {
         HashMap<String, List<Bill>> hashMapListBill = new HashMap<>();
         for (int i = 0; i < listBill.size(); i++) {
             List<Bill> lb1 = new ArrayList<>();
-            int id = Integer.parseInt(listBill.get(i).getDate());
-
-            if (hashMapListBill.containsKey(id)){
-                System.out.println("Key "+ i + " đã tồn tại");
-                lb1.add(listBill.get(i));
-                hashMapListBill.put(listBill1.get(i).getDate(), lb1);
-
-            }else {
-                lb1.add(listBill.get(i));
-                hashMapListBill.put(listBill.get(i).getDate(), lb1);
-
+            if(hashMapListBill.containsKey(listBill.get(i).getDate())){
+                lb1 = hashMapListBill.get(listBill.get(i).getDate());
             }
+            lb1.add(listBill.get(i));
+            hashMapListBill.put(listBill.get(i).getDate(),lb1);
 
         }
 
-        for (String i : hashMapListBill.keySet()) {
-            System.out.println("Date: " + i + " value: " + hashMapListBill.get(i));
+        for (String keyDate : hashMapListBill.keySet()) {
+            System.out.println("key: " + keyDate + " value: " + hashMapListBill.get(keyDate));
         }
 
     }
